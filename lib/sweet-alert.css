@@ -22,7 +22,8 @@
   margin-top: -200px;
   overflow: hidden;
   display: none;
-  z-index: 2000; }
+  z-index: 9999;
+  box-shadow: 0 0 3px 0px #757575; }
   @media all and (max-width: 540px) {
     .sweet-alert {
       width: auto;
@@ -61,8 +62,6 @@
     cursor: pointer; }
     .sweet-alert button::-moz-focus-inner {
       border: 0; }
-  .sweet-alert[data-has-cancel-button=false] button {
-    box-shadow: none !important; }
   .sweet-alert .icon {
     width: 80px;
     height: 80px;

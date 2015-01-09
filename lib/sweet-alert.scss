@@ -34,7 +34,8 @@
 
 	overflow: hidden;
 	display: none;
-	z-index: 2000;
+	z-index: 9999;
+	box-shadow: 0 0 3px 0px #757575;
 
 	@media all and (max-width: 540px) {
 		width: auto;
@@ -84,12 +85,6 @@
 		  border: 0;
 		}
 	}
-
-	// Only show focus-style when there is multiple choice of actions
-	&[data-has-cancel-button=false] button {
-		box-shadow: none !important;
-	}
-
 
 	.icon {
 		$red: 		#F27474;
